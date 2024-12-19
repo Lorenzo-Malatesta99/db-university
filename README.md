@@ -80,8 +80,8 @@ WHERE phone IS NULL
 ### Inserire nella tabella degli studenti un nuovo record con i propri dati (per il campo degree_id, inserire un valore casuale)
 
 ```SQL
-INSERT INTO students (ID, degree_id, name, surname, date_of_birth, fiscal_code, enrolment_date, registration_number, email)
-VALUES (5001, 2, 'Lorenzo', 'Rossi', '1995-04-15', 'LRNRSS95D15F205X', CURDATE(), '123456', 'lorenzo.rossi@example.com');
+INSERT INTO students (degree_id, name, surname, date_of_birth, fiscal_code, enrolment_date, registration_number, email)
+VALUES (2, 'Lorenzo', 'Rossi', '1995-04-15', 'LRNRSS95D15F205X', CURDATE(), '123456', 'lorenzo.rossi@example.com');
 ```
 
 
