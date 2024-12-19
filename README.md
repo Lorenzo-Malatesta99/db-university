@@ -91,7 +91,7 @@ VALUES (5001, 2, 'Lorenzo', 'Rossi', '1995-04-15', 'LRNRSS95D15F205X', CURDATE()
 ```SQL
 UPDATE teachers
 SET office_number = 126
-WHERE id = 2
+WHERE id = 58
 ```
 
 
@@ -99,7 +99,8 @@ WHERE id = 2
 ### Eliminare dalla tabella studenti il record creato precedentemente al punto 9
 
 ```SQL
--- non va
+DELETE FROM students
+WHERE id = 5001
 ```
 
 
